@@ -1,0 +1,140 @@
+*{
+
+	margin:0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+body{
+	
+	background-image:url("back.jpg");
+	font-family: 'Lato';
+	font-weight: 300;
+	font-size: 20px;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.wrapper{
+	width: 1000px;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	background-color: #fff;
+	box-shadow:#f7f7f7;
+	text-align: center;
+
+
+}
+.player-0-panel,
+.player-1-panel{
+	width: 50%;
+	height: 600px;
+	float: left;
+	padding: 12%;
+
+}
+/* player */
+
+.player-name{
+
+	font-size: 45px;
+	color: #000;
+}
+
+.player-score{
+
+	font-size: 40px;
+	color: #ff0000;
+	margin-top: 110px;
+	margin-left: 15px;
+	font-weight: 500;
+}
+
+.current-data{
+	border: 1px solid #fff;
+	background-color: #ff0000;
+	color:#fff;
+	display: inline-block;
+	margin-top: 60px;
+	height: 60px;
+	width: 90px;
+	text-align:center;
+}
+
+.btn-1,
+.btn-2,
+.btn-3{
+	background:none ;
+	color: #ff0000;
+	border-style: none;
+	font-size: 30px;
+	font-weight: 100;
+
+}
+.btn-1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-550%);
+
+}
+
+.btn-2{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-75%,300%);
+}
+	.btn-3{
+		position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,450%);
+	}
+
+	.active{
+		background-color: #f7f7f7;
+	}
+
+	.imn{
+		position: absolute;
+		top: 50%;
+		left:50%;
+		transform:translate(-50%,-50%);
+	}
+
+
+	.imn{
+    height: 100px;
+    width: 100px;
+
+}
+	button:hover { font-weight: 600;
+	text-transform: uppercase; }
+button:hover i { margin-right: 20px; }
+
+.winner { background-color: #f7f7f7; }
+.winner .player-name { font-weight: 300; color: #EB4D4D; }
+
+button:focus {
+    outline: none;
+}
+
+
+.active .player-name { font-weight: 300; }
+.active .player-name::after {
+    content: "\2022";
+    font-size: 47px;
+    position: absolute;
+    color: #EB4D4D;
+    top: -7px;
+    right: 10px;
+    
+}
+
+.winner { background-color: #f7f7f7; }
+.winner .player-name { font-weight: 300; color: #EB4D4D; }
+.winner1{background-color: #fff;}
+
